@@ -1,13 +1,47 @@
 @extends('_layout.default')
 
 @section('content')
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Baker Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Baker - v4.7.0
+  * Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
 {{-- <style type="text/css">
   .card:hover{
     transform: scale(150%);  
   }
 </style> --}}
   <div class="container">
-    <h1>Galeri</h1>
+    <h1><B>GALERI</B></h1>
     {{-- <div class="alert alert-info">lebih bagus lagi kalau ada fitur zoom/ fullscreen saat foto diklik</div> --}}
     @if ($items->count())
     <div class="row g-3 mb-3">
@@ -95,7 +129,7 @@
         <img src="{{ asset($items[0]->foto) }}" class="card-img" alt="{{ $items[0]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -112,7 +146,7 @@
         <img src="{{ asset($items[1]->foto) }}" class="card-img" alt="{{ $items[1]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -129,7 +163,7 @@
         <img src="{{ asset($items[2]->foto) }}" class="card-img" alt="{{ $items[2]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -146,7 +180,7 @@
         <img src="{{ asset($items[3]->foto) }}" class="card-img" alt="{{ $items[3]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -163,7 +197,7 @@
         <img src="{{ asset($items[4]->foto) }}" class="card-img" alt="{{ $items[4]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -180,7 +214,7 @@
         <img src="{{ asset($items[5]->foto) }}" class="card-img" alt="{{ $items[5]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -197,7 +231,7 @@
         <img src="{{ asset($items[6]->foto) }}" class="card-img" alt="{{ $items[6]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -214,7 +248,7 @@
         <img src="{{ asset($items[7]->foto) }}" class="card-img" alt="{{ $items[7]->nama }}" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
